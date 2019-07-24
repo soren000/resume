@@ -2,6 +2,7 @@ import React from 'react';
 import {View, Text, Link, Image} from '@react-pdf/renderer';
 import styles from '../styles/main';
 import reactLogo from '../react-logo.png';
+import githubLogo from '../github-logo.jpg';
 
 const Project = ({ name, stack, githubLink, description }) => (
     <View style={styles.project}> 
@@ -12,6 +13,7 @@ const Project = ({ name, stack, githubLink, description }) => (
                 <Text>{stack}</Text>
             </View>
             <View style={styles.gitHub}>
+                <Image style={{...styles.udemyLogo, height: 10}} src={githubLogo} />
                 <Link style={styles.link} src={githubLink}>GitHub</Link>
             </View>
         </View>

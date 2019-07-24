@@ -141,7 +141,8 @@ const style = StyleSheet.create({
     },
     gitHub: {
         marginLeft: 12,
-        fontSize: 10
+        fontSize: 10,
+        flexDirection: "row"
     },
     project: {
         marginBottom: 7

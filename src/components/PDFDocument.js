@@ -23,7 +23,7 @@ const PDFDocument = () => (
                 <View style={styles.mainSection}>
                     <View style={styles.mainSectionCategory}>
                         <Text style={styles.mainSectionCategoryTitle}>Introduction</Text>
-                        <Text style={styles.mainSectionCategoryItem}>I'm currently looking for oppurtunities as a Jr. Web Developer to expand my skillset and experience. Programming is a passion of mine. I'm constantly intrigued by new technologies and searching for new techniques to improve my code. My main goal right now is to find a team that will invite me to grow as a web developer, so that I can further expand my expertise in the field.</Text>
+                        <Text style={styles.mainSectionCategoryItem}>I am currently seeking a position as a Junior Web Developer in a team that will invite room for growth as a programmer, where I will sharpen my expertise in my existing skillset, and where I can attain experience in new technologies or techniques.</Text>
                     </View>
                     <View style={styles.mainSectionCategory}>
                         <Text style={styles.mainSectionCategoryTitle}>Courses</Text>

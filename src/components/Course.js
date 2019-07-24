@@ -5,12 +5,15 @@ import udemyLogo from '../udemy-logo.png';
 
 const Course = ({name, hours, link, description}) => (
     <View style={styles.course}>
-    <Text>{name}</Text>
     <View style={styles.courseDetails}>
-        <Text>{hours} hours</Text>
-        <Text style={styles.slash}>/</Text>
-        <Image style={styles.udemyLogo} src={udemyLogo} />
-        <Link style={styles.link} src={link}>Udemy</Link>
+        <Text style={styles.projectTitle}>{name}</Text>
+        <View style={styles.stack}>
+            <Text>{hours} hours</Text>
+        </View>
+        <View style={styles.gitHub}>
+            <Image style={styles.udemyLogo} src={udemyLogo} />
+            <Link style={styles.link} src={link}>Udemy</Link>
+        </View>
     </View>
     <Text style={styles.courseDescription}>{description}</Text>
     </View>
